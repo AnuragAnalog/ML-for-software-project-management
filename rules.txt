@@ -1,0 +1,12 @@
+title
+contents
+broad description of topic
+
+
+non functional requirements
+risks
+deployment arc
+change tracking and control
+
+demo is also imp
+final exam git

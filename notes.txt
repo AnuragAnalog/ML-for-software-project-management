@@ -1,0 +1,34 @@
+Four points are:
+	estimate the size of development
+	estimate the effort of the person
+	estimate the time in months or years
+	estimate the cost in dollars
+
+there is no specific method to determine the cost estimate
+
+prediction are classified into three
+	expert judgement (can be used as an estimte to algo models)
+	algorithmic models (main criterion is size of source file)
+		cocomo model
+		function point anaylsis
+		slim model
+	machine learning
+
+ann gave more promising results than regression techniques
+MLPNN and a stepwise regression
+
+NN gives some good results compared to linear regression
+
+ann in software focused on accuracy comparsion rather than suitability
+
+factors like configuarbility and exploratory are also equally important
+
+linear regression is sensitive to outliers
+
+cost drivers are like categorical variables (each of it has a specific value which is called as effort multiplier)
+
+datasets were divided in the range of every sixth project from the training data.
+
+To apply the linear regression, the data needs to be normally distributed.
+Tranform it using a log to base e conversion to reduce the variance.
+GRM(General Regression Models), apply adjusted-R2 rather than R2
