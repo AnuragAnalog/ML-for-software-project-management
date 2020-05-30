@@ -4,39 +4,27 @@ How Machine Learning can be used in software estimation
 
 ## COCOMO Dataset
 
-|||
+Software development effort multipliers
+
+| Variable | Description |
 | --- | --- |
-RELY
-DATA
-CPLX
-TIME
-STOR
-VIRT
-TURN
-ACAP
-AEXP
-PCAP
-VEXP
-LEXP
-MODP
-TOOL
-SCHED
-LOC
-ACTUAL 
-Reliability
-Database size
-Application complexity
-Restriction of time
-Restriction of main store
-Volatility of virtual machine
-Time of machine performance
-Analyst capability
-Experience with application
-Programmer capability
-Experience with virtual machine
-Experience with programming language
-Use programming modern practice
-Use software tools
-Schedule for development
-Lines of Code
-Software size
+| RELY | Reliability |
+| DATA | Database size |
+| CPLX | Application complexity |
+| TIME | Restriction of time |
+| STOR | Restriction of main store |
+| VIRT | Volatility of virtual machine |
+| TURN | Time of machine performance |
+| ACAP | Analyst capability |
+| AEXP | Experience with application |
+| PCAP | Programmer capability |
+| VEXP | Experience with virtual machine |
+| LEXP | Experience with programming language |
+| MODP | Use programming modern practice |
+| TOOL | Use software tools |
+| SCHED | Schedule for development |
+| LOC | Lines of Code |
+| ACTUAL | Software size |
+
+It is a set of 63 project instances, which has 17 feature columns, out of which 15 are categorical variables, and two are continuous variables.
+Of which Lines of code(LOC) is an independent variable and Effort is the actual target.
